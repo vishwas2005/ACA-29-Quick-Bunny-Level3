@@ -17,16 +17,16 @@ function setup() {
   target=createSprite(390,80,40,40)
   target.shapeColor="pink"
   
-  obs1=createSprite(50,220,150,15)
+  obs1=createSprite(50,220,290,15)
   obs1.shapeColor="red"
   
-  obs2=createSprite(260,220,150,15)
+  obs2=createSprite(390,220,290,15)
   obs2.shapeColor="red"
   
-  obs3=createSprite(500,220,150,15)
+  obs3=createSprite(900,220,290,15)
   obs3.shapeColor="red"
   
-  obs4=createSprite(530,220,150,15)
+  obs4=createSprite(600,220,290,15)
   obs4.shapeColor="red"
   
   obs5=createSprite(50,280,150,15)
@@ -35,7 +35,7 @@ function setup() {
   obs6=createSprite(260,280,150,15)
   obs6.shapeColor="red"
 
-  obs7=createSprite(240,280,150,15)
+  obs7=createSprite(390,280,150,15)
   obs7.shapeColor="red"
   
   obs8=createSprite(350,280,150,15)   

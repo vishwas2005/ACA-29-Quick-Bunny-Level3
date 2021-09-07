@@ -7,42 +7,42 @@ function preload(){
 var obs_touched = false
 var snake_touched = false
 function setup() {
-  createCanvas(1000, 600);
+  createCanvas(600, 600);
   
   edges=createEdgeSprites()
   
-  player=createSprite(70,450,10,10)
+  player=createSprite(70,200,10,10)
   player.shapeColor="white"
   
   target=createSprite(390,80,40,40)
   target.shapeColor="pink"
   
-  obs1=createSprite(50,220,290,15)
+  obs1=createSprite(50,220,100,15)
   obs1.shapeColor="red"
   
-  obs2=createSprite(390,220,290,15)
-  obs2.shapeColor="red"
+  obs2=createSprite(390,220,100,15)
+  obs2.shapeColor="blue"
   
-  obs3=createSprite(900,220,290,15)
-  obs3.shapeColor="red"
+  obs3=createSprite(560,220,100,15)
+  obs3.shapeColor="yellow"
   
-  obs4=createSprite(600,220,290,15)
-  obs4.shapeColor="red"
+  obs4=createSprite(225,220,120,15)
+  obs4.shapeColor="black"
   
-  obs5=createSprite(50,280,150,15)
-  obs5.shapeColor="red"
+  obs5=createSprite(50,280,100,15)
+  obs5.shapeColor="green"
   
-  obs6=createSprite(260,280,150,15)
-  obs6.shapeColor="red"
+  obs6=createSprite(220,280,100,15)
+  obs6.shapeColor="grey"
 
-  obs7=createSprite(390,280,150,15)
-  obs7.shapeColor="red"
+  obs7=createSprite(560,280,100,15)
+  obs7.shapeColor="orange"
   
-  obs8=createSprite(350,280,150,15)   
-  obs8.shapeColor="red"
+  obs8=createSprite(400,280,100,15)   
+  obs8.shapeColor="white"
   
-  obs9=createSprite(470,280,150,15)
-  obs9.shapeColor="red"
+  obs9=createSprite(270,280,70,15)
+  obs9.shapeColor="darkgreen"
 
   snakeGroup = new Group()
 
